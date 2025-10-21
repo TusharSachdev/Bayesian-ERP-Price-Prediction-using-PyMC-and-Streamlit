@@ -75,7 +75,7 @@ A Bayesian linear regression model was constructed using [PyMC](https://www.pymc
 
 The Bayesian linear regression model provides interpretable coefficients indicating the impact of each feature on the ERP project price estimation:
 
-| Feature                       | Coefficient (Mean) | Interpretation                                 |
+| Feature                       | Coefficient (Mean in USD) | Interpretation                                 |
 |------------------------------|--------------------|------------------------------------------------|
 | **Intercept**                | ~181               | Base project price independent of features     |
 | **Duration_Weeks**           | ~325               | Each additional week adds approximately $325  |
