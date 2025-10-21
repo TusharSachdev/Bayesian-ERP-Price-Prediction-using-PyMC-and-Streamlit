@@ -90,6 +90,27 @@ The model's noise (sigma) estimate of approximately 202 indicates relatively tig
 
 These coefficients reflect expected business logic and provide a transparent view into the pricing structure across project features.
 
+## 🔑 Key Prediction Insights for ERP Pricing
+
+- **Project price can be reliably estimated** based on a few key, easily measurable features:
+  - Duration of the project (weeks)
+  - Number of ERP modules implemented
+  - Team size
+  - Project complexity score
+
+- **Quantifiable impacts:**
+  - Each additional week adds roughly **$325** to the project cost.
+  - Every ERP module implemented increases the price by about **$1,459**.
+  - Increasing the team by one member adds around **$403**.
+  - A one-unit increase in project complexity adds approximately **$520**.
+
+- **Regional and industry factors matter:**
+  - Projects in **USA** and **India** have slightly higher quotes, reflecting local market differences.
+  - Projects for **IT Services** clients are priced slightly higher than others.
+
+- **Uncertainty quantified:**
+  - Unlike traditional methods, the Bayesian approach provides **not just a point estimate but a range of plausible prices**, helping ERP firms manage risk and set pricing with confidence.
+
 ---
 
 ## 📊 Inference
